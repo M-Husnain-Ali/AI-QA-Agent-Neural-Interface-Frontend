@@ -1,6 +1,8 @@
-# AI Q&A Agent Neural Interface
+# AI Q&A Agent Neural Interface (Frontend)
 
-A sophisticated AI-powered question-answering interface with real-time neural processing capabilities and a modern, responsive design.
+A sophisticated AI-powered question-answering interface with real-time neural processing capabilities and a modern, responsive design. This repository contains the frontend implementation of the AI Q&A Agent.
+
+> **Note**: This is the frontend repository. The backend implementation can be found at [AI-QA-Agent-Neural-Interface-Backend](https://github.com/M-Husnain-Ali/AI-QA-Agent-Neural-Interface-Backend)
 
 ## Features
 
@@ -12,6 +14,14 @@ A sophisticated AI-powered question-answering interface with real-time neural pr
 - **Mobile Responsive**: Fully responsive design for all devices
 - **Modern Design**: Sleek dark theme with geometric neural network motifs
 - **Visual Feedback**: Interactive loading states and typing indicators
+
+## Project Architecture
+
+This project follows a client-server architecture:
+
+- **Frontend (This Repository)**: React-based user interface with real-time chat capabilities and neural network visualizations
+- **Backend**: Python-based API server handling AI processing and conversation management
+  - Repository: [AI-QA-Agent-Neural-Interface-Backend](https://github.com/M-Husnain-Ali/AI-QA-Agent-Neural-Interface-Backend)
 
 ## Tech Stack
 
@@ -25,20 +35,34 @@ A sophisticated AI-powered question-answering interface with real-time neural pr
 
 ## Getting Started
 
-1. Clone the repository
+### Prerequisites
+
+1. Node.js and npm installed
+2. Backend server running (see [backend repository](https://github.com/M-Husnain-Ali/AI-QA-Agent-Neural-Interface-Backend) for setup)
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/AI-QA-Agent-Neural-Interface-Frontend.git
+   cd AI-QA-Agent-Neural-Interface-Frontend
+   ```
+
 2. Install dependencies:
    ```bash
    npm install
    ```
+
 3. Start the development server:
    ```bash
    npm start
    ```
+
 4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser
 
 ## API Integration
 
-The application connects to a backend API at `http://127.0.0.1:8000/api`. Ensure the backend server is running before starting the frontend.
+The application connects to the backend API at `http://127.0.0.1:8000/api`. Ensure the [backend server](https://github.com/M-Husnain-Ali/AI-QA-Agent-Neural-Interface-Backend) is running before starting the frontend.
 
 ### API Endpoints
 
